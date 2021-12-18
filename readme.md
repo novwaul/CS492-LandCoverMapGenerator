@@ -67,6 +67,25 @@ Model configurations are stored in this repository as follows.
 
 **_X_** in **_init_lr(~X epoch)_** and **_final_lr(~X epoch)_** is the epoch when stop training.
 
+## Data and DataLoader
+There is a porper dataset at AIHub. Follow the link https://aihub.or.kr/aidata/30737
+
+The dataset contains 512X512 images and 1024X1024 images.
+
+There are three dataloaders: train dataloader, validation dataloader, and test dataloader.
+
+For train and validation set, the dataloaders crop 512X512 and 1024X1024 to 216X216.
+
+However, for test set, the dataloader use 512X512 images to minimize randomness of cropping. So it crops only 1024X1024 to 512X512.
+
+Also, for train and validation set, the dataloaders use random horizontal and vertical flip augmentation.
+
+But for test set, there is no augementation at all.
+
+For image preprocessing, there is a dataloader which is used for calculating average and standard deviation of train images.
+
+It uses 512X512 images, and the results are written in the code.
+
 ## Citation
 ### HRNet Citation
 
