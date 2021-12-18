@@ -57,10 +57,15 @@ Model configurations are stored in this repository as follows.
 |batch_size|16|16|12|
 |init_lr1|0.005(~100 epoch)|0.01(~100 epoch)|0.002(~147 epoch)|
 |final_lr1|0.001(~100 epoch)|0.001(~100 epoch)|0.0005(~147 epoch)|
+|epochs1|100|100|200|
 |init_lr2|0.001(~140 epoch)|0.001(~130epoch)|
 |final_lr2|0.0002(~140 epoch)|0.0001(~130 epoch)|
+|epochs2|200|200|
 |init_lr3|0.001(~156 epoch)|
 |final_lr3|0.001(~156 epoch)|
+|epochs3|200|
+
+**_X_** in **_init_lr(~X epoch)_** and **_final_lr(~X epoch)_** is the epoch when stop training.
 
 ## Citation
 ### HRNet Citation
