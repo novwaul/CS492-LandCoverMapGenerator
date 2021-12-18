@@ -36,11 +36,7 @@ Finally, the **_'X'_** in **_'STAGEX'_** must be an positive integer, starting f
 
 ## Parameters to adjust
 Please refer to the report pdf file for details.
-1. **_batch_size_** 
-   
-   
-   ![image](https://user-images.githubusercontent.com/53179332/146635250-7a4c6f75-5136-43b8-bb40-26feb5529021.png)
-
+1. **_batch_size_** at line 177
 3. **_init_lr_**
 4. **_final_lr_**
 5. **_epochs_**
