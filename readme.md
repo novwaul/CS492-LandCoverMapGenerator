@@ -47,12 +47,20 @@ Model configurations are stored in this repository as follows.
 
 
 ## Parameters to adjust
-Please refer to the report pdf file for details.
 1. **_batch_size_** at line 177
-2. **_num_trial_** at line 803
-3. **_init_lr_** at line 818
-4. **_final_lr_** at line 819
-5. **_epochs_** at line 973 in **_train_net_** function
+2. **_init_lr_** at line 818
+3. **_final_lr_** at line 819
+4. **_epochs_** at line 973 in **_train_net_** function
+
+||ASM|MBM|MSM|
+|:---:|:---:|:---:|:---:|
+|batch_size|16|16|12|
+|init_lr1|0.005(~100 epoch)|0.01(~100 epoch)|0.002(~147 epoch)|
+|final_lr1|0.001(~100 epoch)|0.001(~100 epoch)|0.0005(~147 epoch)|
+|init_lr2|0.001(~140 epoch)|0.001(~130epoch)|
+|final_lr2|0.0002(~140 epoch)|0.0001(~130 epoch)|
+|init_lr3|0.001(~156 epoch)|
+|final_lr3|0.001(~156 epoch)|
 
 ## Citation
 ### HRNet Citation
