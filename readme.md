@@ -1,6 +1,12 @@
 # Thematic Map Generator for Land Cover
 
-There are total 3 modles, asjusted standard model, many branch model, and many stage model.
+There are total 3 modles, Adsjusted Standard Model, Many Branch Model, and Many Stage Model.
+
+**_ASM_** is the transformation of HRNet18. The number of channels, blocks and modules are adjusted while keeping the origianl relationships between each parameters.
+
+**_MBM_** is a custom model. It utilizes many branches and focuses on a new born branch. The new born branch takes the most blocks and channels while old banches take them as least as possible.
+
+**_MSM_** is a custom model. It utilizes more stage than ASM. Like MBM, it focuses on a new born branch. But unlike MBM, it also gives more resources to the old branches than MBM.
 
 Each model requres different configuration and parameters.
 
