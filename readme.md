@@ -1,5 +1,7 @@
 # Thematic Map Generator for Land Cover
 
+## Models
+
 There are total 3 modles, Adsjusted Standard Model, Many Branch Model, and Many Stage Model.
 
 **_ASM_** is the transformation of HRNet18. The number of channels, blocks and modules are adjusted while keeping the origianl relationships between each parameters.
@@ -10,13 +12,17 @@ There are total 3 modles, Adsjusted Standard Model, Many Branch Model, and Many 
 
 Each model requres different configuration and parameters.
 
-## Configurations
-Model configurations are stored in this repository as follows.
+The pretrained models are large so it is not able to upload in this repository.
+They are available via Google Drive share link below.
+https://drive.google.com/drive/folders/1deOm_1dN0xHuT_la3mmgviO9E-L2A4Jj?usp=sharing
+
+There are three files.
 1. **_trial_0_**: Adjusted Standard Model
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
 
-If you want to change the configuration, use **_cfg_** Python Dictionary variable.
+
+## Configurations
 
 **_cfg_** format is as follow.
 
@@ -33,6 +39,12 @@ If you want to change the configuration, use **_cfg_** Python Dictionary variabl
 **_cfg['STAGEX']['BLOCK']_**: The type of block which consists a branch. It can be **_'BASIC'_**, or **_'BOTTLENECK'_**.
 
 Finally, the **_'X'_** in **_'STAGEX'_** must be an positive integer, starting from 1 and increasing sequentially.
+
+Model configurations are stored in this repository as follows.
+1. **_trial_0_**: Adjusted Standard Model
+2. **_trial_1_**: Many Branch Model
+3. **_trial_2_**: Many Stage Model
+
 
 ## Parameters to adjust
 Please refer to the report pdf file for details.
