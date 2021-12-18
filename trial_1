@@ -1,0 +1,37 @@
+#Define model
+cfg = {}
+
+cfg['STAGE1'] = {}
+cfg['STAGE1']['NUM_MODULES'] = 1
+cfg['STAGE1']['NUM_BRANCHES'] = 2
+cfg['STAGE1']['NUM_BLOCKS'] = [1, 4]
+cfg['STAGE1']['NUM_CHANNELS'] = [32, 64]
+cfg['STAGE1']['BLOCK'] = 'BOTTLENECK'
+
+cfg['STAGE2'] = {}
+cfg['STAGE2']['NUM_MODULES'] = 1
+cfg['STAGE2']['NUM_BRANCHES'] = 3
+cfg['STAGE2']['NUM_BLOCKS'] = [1, 1, 4]
+cfg['STAGE2']['NUM_CHANNELS'] = [16, 32, 64]
+cfg['STAGE2']['BLOCK'] = 'BASIC'
+
+cfg['STAGE3'] = {}
+cfg['STAGE3']['NUM_MODULES'] = 1
+cfg['STAGE3']['NUM_BRANCHES'] = 4
+cfg['STAGE3']['NUM_BLOCKS'] = [1, 1, 1, 4]
+cfg['STAGE3']['NUM_CHANNELS'] = [8, 16, 32, 64]
+cfg['STAGE3']['BLOCK'] = 'BASIC'
+
+cfg['STAGE4'] = {}
+cfg['STAGE4']['NUM_MODULES'] = 1
+cfg['STAGE4']['NUM_BRANCHES'] = 5
+cfg['STAGE4']['NUM_BLOCKS'] = [1, 1, 1, 1, 4]
+cfg['STAGE4']['NUM_CHANNELS'] = [4, 8, 16, 32, 64]
+cfg['STAGE4']['BLOCK'] = 'BASIC'
+
+cfg['STAGE5'] = {}
+cfg['STAGE5']['NUM_MODULES'] = 1
+cfg['STAGE5']['NUM_BRANCHES'] = 6
+cfg['STAGE5']['NUM_BLOCKS'] = [1, 1, 1, 1, 1, 4]
+cfg['STAGE5']['NUM_CHANNELS'] = [4, 8, 16, 32, 32, 64]
+cfg['STAGE5']['BLOCK'] = 'BASIC'
