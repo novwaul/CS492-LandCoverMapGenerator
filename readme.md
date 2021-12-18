@@ -37,7 +37,7 @@ Finally, the **_'X'_** in **_'STAGEX'_** must be an positive integer, starting f
 ## Parameters to adjust
 Please refer to the report pdf file for details.
 1. **_batch_size_** at line 177
-2. **_trial_num_** at line 803
+2. **_num_trial_** at line 803
 3. **_init_lr_** at line 818
 4. **_final_lr_** at line 819
 5. **_epochs_** at line 973 in **_train_net_** function
