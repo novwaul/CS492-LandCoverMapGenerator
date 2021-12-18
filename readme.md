@@ -10,6 +10,23 @@ Model configurations are stored in this repository as follows.
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
 
+If you want to change the configuration, use **_cfg_** Python Dictionary variable.
+
+**_cfg_** format is as follow.
+
+**_cfg['INIT_CHANNEL']_**: The number of channel of **_stem_net_**. **_stem_net_** is the first module of HRNet, consisting of two 2X2 Convolutions, two Batch Normalization, and a ReLU function.
+
+**_cfg['STAGEX']['NUM_MODULES']_**: The number of HighResolution modules of Stage X.
+
+**_cfg['STAGEX']['NUM_BRANCHES']_**: The number of branches of Stage X.
+
+**_cfg['STAGEX']['NUM_BLOCKS']_**: A Python List containing the number of blocks of each branch. The length of this list must be same as the number of branches.
+
+**_cfg['STAGEX']['NUM_CHANNELS']_**: A Python List containing the number of channels of each branch. The length of this list must be same as the number of branches. 
+
+**_cfg['STAGEX']['BLOCK']_**: The type of block which consists a branch. It can be **_'BASIC'_**, or **_'BOTTLENECK'_**.
+
+Finally, the **_'X'_** in **_'STAGEX'_** must be an positive integer, starting from 1 and increasing sequentially.
 
 ## Parameters to adjust
 Please refer to the report pdf file for details.
