@@ -1,6 +1,8 @@
 #Define model
 cfg = {}
 
+cfg['INIT_CHANNEL'] = 32
+
 cfg['STAGE1'] = {}
 cfg['STAGE1']['NUM_MODULES'] = 1
 cfg['STAGE1']['NUM_BRANCHES'] = 1
