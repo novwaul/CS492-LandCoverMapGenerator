@@ -858,7 +858,7 @@ def train_net(epochs, resume=False):
         t1 = time.time()
 
         #use polynomial learning rate decay
-        optimizer.param_groups[0]['lr'] = final_lr + (init_lr - final_lr) * ((1 - (epoch-100)/(epochs-100))**0.9) 
+        optimizer.param_groups[0]['lr'] = final_lr + (init_lr - final_lr) * ((1 - (epoch)/(epochs))**0.9) 
 
         #start training
         net.train()
