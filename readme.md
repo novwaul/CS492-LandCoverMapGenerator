@@ -67,6 +67,10 @@ Model configurations are stored in this repository as follows.
 
 **_X_** in **_init_lr(~X epoch)_** and **_final_lr(~X epoch)_** is the epoch when stop training.
 
+**When you change the epochs, you also have to change poly learning rate equation at line 831. Subtract previous epochs for both nominator and denominator. For example, if you change the epochs from 100 to 200 like above table, subtract 100 so ((epoch-100)/(epochs-100))^0.9 can be mutiplied.
+
+
+
 ## Data and DataLoader
 There is a porper dataset at AIHub. Follow the link https://aihub.or.kr/aidata/30737
 
