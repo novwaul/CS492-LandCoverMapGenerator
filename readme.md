@@ -16,7 +16,7 @@ The pretrained models are large so it is not able to upload in this repository.
 They are available via Google Drive share link:
 https://drive.google.com/drive/folders/1deOm_1dN0xHuT_la3mmgviO9E-L2A4Jj?usp=sharing
 
-There are three files.
+There are three files in **_result_** folder.
 1. **_trial_0_**: Adjusted Standard Model
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
