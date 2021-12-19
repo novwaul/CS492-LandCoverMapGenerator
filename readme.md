@@ -13,7 +13,7 @@ There are total 3 modles, Adsjusted Standard Model, Many Branch Model, and Many 
 Each model requres different configuration and parameters.
 
 The pretrained models are large so it is not able to upload in this repository.
-They are available via Google Drive share link below.
+They are available via Google Drive share link:
 https://drive.google.com/drive/folders/1deOm_1dN0xHuT_la3mmgviO9E-L2A4Jj?usp=sharing
 
 There are three files.
