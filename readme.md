@@ -21,6 +21,10 @@ There are three files.
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
 
+The root is setted as '/gdrive/My Drive/Colab Notebooks/final'.
+
+Please put **_final.py_** and **_result_** folder in **_final_** folder.
+
 
 ## Configurations
 
