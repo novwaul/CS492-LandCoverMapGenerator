@@ -21,6 +21,10 @@ There are three files in **_results_** folder.
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
 
+For each **_trial_x_** folder, there are two files.
+1. **_model.pt_**: trained model.
+2. **_best.pt_**: trained model which shows the best performance on validatoin mIoU.
+
 The root is setted as '/gdrive/My Drive/Colab Notebooks/final'.
 
 Please put **_final.py_** and **_results_** folder in **_final_** folder.
