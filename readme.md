@@ -16,14 +16,14 @@ The pretrained models are large so it is not able to upload in this repository.
 They are available via Google Drive share link:
 https://drive.google.com/drive/folders/1deOm_1dN0xHuT_la3mmgviO9E-L2A4Jj?usp=sharing
 
-There are three files in **_result_** folder.
+There are three files in **_results_** folder.
 1. **_trial_0_**: Adjusted Standard Model
 2. **_trial_1_**: Many Branch Model
 3. **_trial_2_**: Many Stage Model
 
 The root is setted as '/gdrive/My Drive/Colab Notebooks/final'.
 
-Please put **_final.py_** and **_result_** folder in **_final_** folder.
+Please put **_final.py_** and **_results_** folder in **_final_** folder.
 
 
 ## Configurations
