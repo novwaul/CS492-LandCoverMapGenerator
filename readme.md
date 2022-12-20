@@ -1,4 +1,4 @@
-# Thematic Map Generator for Land Cover
+# Land Cover Map Generator
 
 ## Models
 
