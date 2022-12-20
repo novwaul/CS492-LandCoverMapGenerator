@@ -1,5 +1,8 @@
 # Land Cover Map Generator
 
+<img width="835" alt="스크린샷 2022-12-20 오후 10 40 00" src="https://user-images.githubusercontent.com/53179332/208680519-8acae39a-544c-4aab-8295-31a6b3ad7569.png">
+
+
 ## Models
 
 There are total 3 modles, Adsjusted Standard Model, Many Branch Model, and Many Stage Model.
